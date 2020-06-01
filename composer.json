@@ -1,0 +1,28 @@
+{
+    "name": "mitoop/silent-try",
+    "description": "slient try",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mitoop",
+            "email": "me@mitoop.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mitoop\\Slient\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^7.13"
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "SilentTry": "Mitoop\\Slient\\Facade"
+            }
+        }
+    }
+}
