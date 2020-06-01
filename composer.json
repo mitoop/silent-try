@@ -1,6 +1,6 @@
 {
     "name": "mitoop/silent-try",
-    "description": "slient try",
+    "description": "silent try",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Mitoop\\Slient\\": "src/"
+            "Mitoop\\Silent\\": "src/"
         }
     },
     "require": {
