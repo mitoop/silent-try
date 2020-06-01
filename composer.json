@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "SilentTry": "Mitoop\\Slient\\Facade"
+                "SilentTry": "Mitoop\\Silent\\Facade"
             }
         }
     }
