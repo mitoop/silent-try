@@ -49,9 +49,9 @@ class SilentTry
                     }
                 }
             }
-
-            return $fallbackReturn;
         }
+
+        return $fallbackReturn;
     }
 
     public function setExceptionCallback(Closure $exceptionCallback): SilentTry
