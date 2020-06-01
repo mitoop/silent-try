@@ -17,12 +17,5 @@
     "require": {
         "php": "^7.2",
         "illuminate/support": "^7.0"
-    },
-    "extra": {
-        "laravel": {
-            "aliases": {
-                "SilentTry": "Mitoop\\Silent\\Facade"
-            }
-        }
     }
 }
